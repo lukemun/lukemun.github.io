@@ -105,9 +105,12 @@ h5:nth-child(2) {
 	right: 15%;
 	bottom: 30%;
 	margin: 0 auto;
-
 }
-
+@media (max-width: 400px) {
+  .introtext {
+  	top:40%;
+	}
+}
 .titletext{
 	text-align: center;
 	font-size: 4em;
@@ -123,7 +126,7 @@ h5:nth-child(2) {
 		transform: rotate(90deg);
 		margin-top: .25em;
 	}
-}*/
+}
 
 /*// Codepen spesific styling - only to center the elements in the pen preview and viewport
 .container {
@@ -158,6 +161,12 @@ h5:nth-child(2) {
         		height: 100vh;
         		width: 100%;
 	position: relative; padding-top: 30%; padding-bottom: 15%; z-index: 4; text-align: center; opacity: 100%;}
+
+@media (max-width: 400px) {
+	.jumbotron .mycontainer { 
+				background-image: url(../files/coyfishyinyang.png);
+	}
+}
 .jumbotron .mycontainer > * { text-align: center; color: #FFFFFF; letter-spacing: 0.04em; }
 .jumbotron .mycontainer h1 { font-size: 5vw; padding-bottom: 2vw; padding-top: 3vw; border-bottom: 1px solid #FFFFFF; border-bottom-color: #aaa9ad; display: inline-block; }
 .jumbotron .mycontainer .lead { font-size: 2.5vw; letter-spacing: 0.25em;}
