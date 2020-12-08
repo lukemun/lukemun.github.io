@@ -164,7 +164,7 @@ h5:nth-child(2) {
 
 @media (max-width: 400px) {
 	.jumbotron .mycontainer { 
-				background-image: url(../files/coyfishyinyang.png);
+		background-image: url(../files/coyfishyinyang.png);
 	}
 }
 .jumbotron .mycontainer > * { text-align: center; color: #FFFFFF; letter-spacing: 0.04em; }
