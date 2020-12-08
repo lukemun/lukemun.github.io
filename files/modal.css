@@ -1,0 +1,23 @@
+.modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+.modal-center {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-height: 100%;
+}
+
+.photo {
+  margin: auto;
+  height: 45vw !important;
+}
+
+
+.closebutton {
+  margin: auto;
+  font-size: 2.5vw;
+}
